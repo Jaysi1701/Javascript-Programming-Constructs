@@ -1,70 +1,111 @@
-# Javascript Programming Constructs
+# JavaScript Programming Constructs & ES6 Data Structures
 
-This repository contains solutions to BridgeLabz JavaScript Programming Construct Practice Problems.
+This repository contains solutions to the BridgeLabz JavaScript Programming Constructs and ES6 Data Structures practice problems. The project demonstrates fundamental JavaScript concepts including programming constructs, functions, arrays, and maps using Node.js.
 
-## Topics Covered
-
-### UC1 - Sequence Problems
-
-* Single Digit Random Number
-* Dice Number
-* Sum of Two Dice
-* Sum and Average of Random Numbers
-* Unit Conversion
-
-### UC2 - If Else Problems
-
-* Maximum and Minimum
-* Date Range Check
-* Leap Year
-* Coin Flip
-
-### UC3 - Else If Problems
-
-* Number to Word
-* Week Day
-* Place Value
-* Arithmetic Operations
-
-### UC4 - Case Statement Problems
-
-* Number to Word Using Switch
-* Week Day Using Switch
-* Place Value Using Switch
-* Unit Conversion Using Switch
-
-### UC5 - For Loop Problems
-
-* Power of Two
-* Harmonic Number
-* Prime Number
-* Prime Numbers in Range
-* Factorial
-* Prime Factors
-
-### UC6 - While Loop Problems
-
-* Power of Two Till 256
-* Magic Number
-* Flip Coin Simulation
-* Gambler Problem
-
-### UC7 - Function Problems
-
-* Temperature Conversion
-* Palindrome Check
-* Prime Palindrome Check
+---
 
 ## Technologies Used
 
-* JavaScript
+* JavaScript (ES6)
 * Node.js
-* Git
-* GitHub
+* Git & GitHub
 * VS Code
 
-## Run Programs
+---
+
+## Project Structure
+
+```text
+Javascript-Programming-Constructs
+│
+├── SequenceProblems
+│   ├── singleDigit.js
+│   ├── diceNumber.js
+│   ├── twoDiceSum.js
+│   ├── sumAndAverage.js
+│   └── unitConversion.js
+│
+├── IfElseProblems
+│   ├── maxMin.js
+│   ├── dateRange.js
+│   ├── leapYear.js
+│   └── coinFlip.js
+│
+├── ElseIfProblems
+│   ├── numberToWord.js
+│   ├── weekDay.js
+│   ├── placeValue.js
+│   └── arithmeticOperation.js
+│
+├── CaseProblems
+│   ├── numberToWordCase.js
+│   ├── weekDayCase.js
+│   ├── placeValueCase.js
+│   └── unitConversionCase.js
+│
+├── ForLoopProblems
+│   ├── powerOfTwo.js
+│   ├── harmonicNumber.js
+│   ├── primeNumber.js
+│   ├── primeRange.js
+│   ├── factorial.js
+│   └── primeFactors.js
+│
+├── WhileLoopProblems
+│   ├── powerOfTwoWhile.js
+│   ├── magicNumber.js
+│   ├── flipCoin.js
+│   └── gambler.js
+│
+├── FunctionProblems
+│   ├── temperatureConversion.js
+│   ├── palindrome.js
+│   └── primePalindrome.js
+│
+├── ArrayProblems
+│   ├── secondLargestSmallest.js
+│   ├── sortSecondLargestSmallest.js
+│   ├── primeFactorsArray.js
+│   ├── tripletsZero.js
+│   └── repeatedDigits.js
+│
+├── MapProblems
+│   ├── diceRollDictionary.js
+│   └── birthMonthSimulation.js
+│
+└── README.md
+```
+
+---
+
+
+## How to Run
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Jaysi1701/Javascript-Programming-Constructs.git
+```
+
+Navigate to the project:
+
+```bash
+cd Javascript-Programming-Constructs
+```
+
+Run any JavaScript file:
 
 ```bash
 node filename.js
 ```
+
+Example:
+
+```bash
+node SequenceProblems/singleDigit.js
+```
+
+---
+
+
+
