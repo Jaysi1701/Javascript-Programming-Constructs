@@ -47,4 +47,32 @@ console.log(
     dailyWageArray.filter(
         wage => wage > 0
     ).length
+);class EmployeePayrollData {
+
+    constructor(id,name,salary){
+
+        this.id = id;
+        this.name = name;
+        this.salary = salary;
+    }
+
+    toString(){
+
+        return `
+        ID=${this.id}
+        Name=${this.name}
+        Salary=${this.salary}
+        `;
+    }
+}
+
+let employee =
+new EmployeePayrollData(
+    1,
+    "Jaysi",
+    50000
+);
+
+console.log(
+    employee.toString()
 );
