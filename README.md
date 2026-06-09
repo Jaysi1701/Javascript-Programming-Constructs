@@ -71,6 +71,24 @@ Javascript-Programming-Constructs
 │   ├── diceRollDictionary.js
 │   └── birthMonthSimulation.js
 │
+├── ObjectsAndArrowFunctions
+│   └── employeeWageObject.js
+│
+├── EmployeePayrollClass
+│   └── employeePayroll.js
+│
+├── EmployeePayrollArray
+│   └── employeePayrollArray.js
+│
+├── EmployeeValidation
+│   └── employeeValidation.js
+│
+├── PINCodeValidation
+│   └── pinCodeValidation.js
+│
+├── EmailValidation
+│   └── emailValidation.js
+│
 └── README.md
 ```
 
